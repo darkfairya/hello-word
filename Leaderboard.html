@@ -3,14 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>My test website</title>
+    <style>
+        a:link {color: white;
+            text-decoration:none;}
+            p.solid {border-style: solid;}
+            p.groove {border-style: groove;}
+        </style>
+        <link href="stylesite.css" rel="stylesheet">
   </head>
   <body>
    <div>
        <ul>
-   <li><p><h1><strong>Racing News</strong></h1></p></li>
+        <li><a
+            href="Article.html"><h1>Racing News</h1></a></li>
    <li><h2>Formula</h2></li>
    <li><h2>GT</h2></li>
-   <li><h2>WRC</h2></li>
+    <li><a
+        href="Article.html"><h2>WRC</h2></a></li>
    </ul>
 </div>
     <div>
@@ -20,19 +29,30 @@
         <div>
            <ul>
             <li>
-                <h2>Pos Driver Points</h2>
+                <P class="solid">Pos Driver Points</P>
             </li>
             </ul>
         </div>
         <div>
             <ol>
-                <li>name points</li>
-                <li>name points</li>
-                <li>name points</li>
-                <li>name points</li>
-                <li>name points</li>
+                <li><p class="groove">Team WRT 28</p></li>
+                <li>Akkodis ASP Team 18</li>
+                <li>GetSpeed 15</li>
+                <li>Tresor by Car COllection 12</li>
+                <li>JP Motorsport 10</li>
             </ol>
         </div>
+    </div>
+    <div>
+        <footer>
+        <hr>
+        <ul>
+        <li>About us</li>
+        <li>Media</li>
+        <li>Contact</li>
+        <li>Accreditation</li>
+        </ul>
+        </footer>
     </div>
   </body>
 </html>
